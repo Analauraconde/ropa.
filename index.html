@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómic Interactivo - Historia de la Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="comic-container">
+        <h1 class="title">Historia de la Ropa</h1>
+
+        <!-- Página: Prehistoria -->
+        <div class="comic-page active" id="prehistorica">
+            <div class="panel">
+                <h2>Época Prehistórica</h2>
+                <img class="animated" src="img/prehis.jpeg" alt="Época Prehistórica">
+                <p>Durante la prehistoria, la ropa era una necesidad básica. Se confeccionaba con pieles de animales y fibras vegetales, ofreciendo abrigo y protección. Además, los colores y materiales reflejaban los recursos disponibles en su entorno.</p>
+            </div>
+            <button onclick="nextPage()">➡️ Siguiente Página</button>
+        </div>
+
+        <!-- Página: Edad Media -->
+        <div class="comic-page" id="edad_media">
+            <div class="panel">
+                <h2>Edad Media</h2>
+                <img class="animated" src="img/edad media.jpeg" alt="Ropa en la Edad Media">
+                <p>En la Edad Media, la moda estaba estrechamente vinculada al estatus social. Los nobles usaban telas caras como seda y terciopelo, mientras que el pueblo recurría a lana y lino. Las prendas eran largas, cubrían todo el cuerpo y reflejaban la moral de la época.</p>
+            </div>
+            <button onclick="nextPage()">➡️ Siguiente Página</button>
+        </div>
+
+        <!-- Página: Renacimiento -->
+        <div class="comic-page" id="renacimiento">
+            <div class="panel">
+                <h2>Renacimiento</h2>
+                <img class="animated" src="img/renacimi2.jpg" alt="Ropa en el Renacimiento">
+                <p>Con el Renacimiento llegó una explosión de creatividad en la moda. Los diseños se hicieron más elaborados, con detalles como encajes, bordados y colores vivos. La ropa se convirtió en un símbolo de riqueza y posición social, marcando un renacer cultural.</p>
+            </div>
+            <button onclick="nextPage()">➡️ Siguiente Página</button>
+        </div>
+        <!-- Página: Rock -->
+<div class="comic-page" id="rock">
+    <div class="panel">
+        <h2>El Rock - Estilo Rebelde</h2>
+        <img class="animated" src="img/rockfin.jpg" alt="Moda Rock">
+        <p>La moda del rock es sinónimo de actitud rebelde y estilo desenfadado. Desde los años 60, los rockeros han llevado chaquetas de cuero, pantalones ajustados y camisetas con logotipos de bandas. Los peinados desordenados, las botas de combate y los accesorios metálicos como cadenas y anillos fueron fundamentales para definir esta estética.</p>
+    </div>
+    <button onclick="nextPage()">➡️ Siguiente Página</button>
+</div>
+
+<!-- Página: Funk -->
+<div class="comic-page" id="funk">
+    <div class="panel">
+        <h2>El Funk - Ropa Colorida y Estilo Único</h2>
+        <img class="animated" src="img/funk.jpeg" alt="Moda Funk">
+        <p>El estilo funk se caracteriza por la ropa vibrante y llamativa, con colores brillantes y patrones llamativos. Los trajes de una pieza, las camisas de manga ancha, los pantalones acampanados y las chaquetas de terciopelo eran populares en los años 70, época dorada del funk. Los accesorios como cadenas grandes y gafas de sol también definieron este estilo lleno de vida.</p>
+    </div>
+    <button onclick="nextPage()">➡️ Siguiente Página</button>
+</div>
+
+<!-- Página: Disco -->
+<div class="comic-page" id="disco">
+    <div class="panel">
+        <h2>La Moda Disco - Glamour y Brillo</h2>
+        <img class="animated" src="img/disco.jpeg" alt="Moda Disco">
+        <p>La moda disco fue un derroche de glamour y brillo. Durante los años 70, la ropa se hizo más atrevida con pantalones acampanados, camisas con paillettes y trajes de lentejuelas. Los trajes ajustados, las plataformas y los peinados voluminosos como los afros fueron emblemáticos de la moda disco.</p>
+    </div>
+    <button onclick="nextPage()">➡️ Siguiente Página</button>
+</div>
+
+
+        <!-- Página: Siglo XX -->
+        <div class="comic-page" id="siglo_20">
+            <div class="panel">
+                <h2>Siglo XX - El Siglo de la Transformación</h2>
+                <img class="animated" src="img/xxfinal.jpeg" alt="Moda del Siglo XX">
+                <p>El siglo XX marcó un antes y un después en la moda. En los años 20, los vestidos cortos simbolizaban la libertad femenina, y las mujeres comenzaron a adoptar estilos más funcionales. Durante la Segunda Guerra Mundial, la moda se volvió más sencilla y práctica, con trajes sin adornos. Los años 50 celebraron la feminidad con siluetas entalladas y faldas voluminosas, mientras que los 60 trajeron el estilo mod y la moda juvenil. Los años 70 estuvieron marcados por el estilo hippie, y los 80 fueron una época de extravagancia con hombreras y colores neón. Finalmente, en los 90, la moda se volvió más relajada y casual, reflejando la evolución de los valores sociales a lo largo del tiempo.</p>
+
+            </div>
+            <button onclick="nextPage()">➡️ Siguiente Página</button>
+        </div>
+
+        <!-- Página: La Actualidad -->
+        <div class="comic-page" id="actualidad">
+            <div class="panel">
+                <h2>La Actualidad - Moda y Sostenibilidad</h2>
+                <img class="animated" src="img/ropa actual.jpeg" alt="Moda en la Actualidad">
+                <p>Hoy en día, la moda es más diversa que nunca. La sostenibilidad es clave, y las marcas están adoptando prácticas responsables. Las redes sociales han revolucionado la forma en que percibimos las tendencias, haciendo que estas sean globales e inmediatas.</p>
+            </div>
+            <button onclick="nextPage()">➡️ Siguiente Página</button>
+        </div>
+
+        <!-- Página: Reflexión Final -->
+        <div class="comic-page" id="reflexion">
+            <div class="panel">
+                <h2>Reflexión Final</h2>
+                <img class="animated" src="img/rele.jpeg" alt="Reflexión sobre la moda">
+                <p>La moda ha sido un testigo silencioso de la evolución humana. Desde simples pieles hasta trajes de alta costura, nuestra ropa refleja nuestros valores, aspiraciones y cambios sociales. ¿Qué dice la moda de hoy sobre nuestro tiempo y hacia dónde nos llevará en el futuro?</p>
+            </div>
+            <button onclick="restartComic()">🔄 Reiniciar Cómic</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-banner">
+            "La moda no es solo ropa, es una expresión de lo que somos y lo que queremos ser."
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
